@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 16%;
+    letter-spacing: 0.2px;
+}
+header img {
+    width: 186px;
+    height: 58px;
+}
+nav ul {
+    display: flex;
+    line-height: 70px;
+}
+nav ul li {
+    margin: 0 10px;
+}
+header button {
+    position: relative;
+    background: none;
+    outline: none;
+    border: 1px solid var(--primary);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 85px;
+    letter-spacing: 0.2px;
+    height: 52px;
+    width: 140px;
+    color: var(--primary);
+}
