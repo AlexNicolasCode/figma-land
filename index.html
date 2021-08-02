@@ -12,26 +12,26 @@
   </head>
 
   <body>
-    <header>
-      <img src="./assets/figma-land-logo.png" alt="figma land logo">
+    <header class="header">
+      <img class="header__logo" src="./assets/figma-land-logo.png" alt="figma land logo">
 
-      <nav>
-        <ul>
-          <li>Home</li>
+      <nav class="header__navbar">
+        <ul class="header__menu">
+          <li class="header__option">Home</li>
 
-          <li>
+          <li class="header__option">
             <a href="#product">
               Product
             </a>
           </li>
 
-          <li>
+          <li class="header__option">
             <a href="#about">
               About
             </a>
           </li>
 
-          <li>
+          <li class="header__option">
             <a href="#contact">
               Contact
             </a>
@@ -39,22 +39,22 @@
         </ul>
       </nav>
 
-      <button>Login</button>
+      <button class="header__btn-login">Login</button>
     </header>
     
     <main>
       <section class="home">
         <div class="home__content">
-          <h1>Lightning fast prototyping</h1>
+          <h1 class="home__title">Lightning fast prototyping</h1>
           
-          <p>Most calendars are designed for teams. Slate is designed for freelancers.</p>
+          <p class="home__subtitle">Most calendars are designed for teams. Slate is designed for freelancers.</p>
           
-          <button class="home__btn-get-started">Get Started</button>
-          <button class="home__btn-try-for-free">Try For Free</button>
+          <button class="home__btn home__btn-get-started">Get Started</button>
+          <button class="home__btn home__btn-try-for-free">Try For Free</button>
         </div>
         
         <div class="home__flat-browser">
-          <img src="./assets/flat-browser.png" alt="flat browser">
+          <img class="home__browser-img" src="./assets/flat-browser.png" alt="flat browser">
         </div>
         
         <div class="home__balls">
@@ -63,7 +63,7 @@
         </div>
       </section>
 
-      <section class="section2">
+      <section class="download">
         <p>Just type</p>
 
         <h2>Fastest way to navigate</h2>
@@ -76,6 +76,7 @@
         <button>Download</button>   
         <button>See Walkthrough</button>     
       </section>
+
 
       <section class="features"></section>
       <section class="fonts"></section>

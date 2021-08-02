@@ -30,20 +30,20 @@
     margin: auto;
     margin-top: 6%;
 }
-.home__content h1 {
+.home__title {
     letter-spacing: 0.2px;
     font-weight: 1000;
     font-size: 72px;
     color: var(--first-text);
     margin-bottom: 16px;
 }
-.home__content p {
+.home__subtitle {
     color: var(--second-text);
     letter-spacing: 0.2px;
     font-size: 19px;
     font-weight: 600;
 }
-.home__content button {
+.home__btn {
     letter-spacing: 0.2px;
     font-size: 18px;
     font-weight: bold;
@@ -56,7 +56,7 @@
     display: flex;
     justify-content: center;
 }
-.home__flat-browser img {
+.home__browser-img {
     position: absolute;
     z-index: 1;   
 }
