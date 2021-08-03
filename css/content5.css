@@ -1,0 +1,72 @@
+.content5 {
+    position: relative;
+    top: 800px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    height: 751px;
+}
+.content5__title {
+    color: vaR(--first-text);
+    font-size: 36px;
+    text-align: center;
+    line-height: 42px;
+    letter-spacing: 0.1px;
+}
+.content5__ibm-logo {
+    display: flex;
+    justify-content: center;
+}
+.content5__text {
+    color: var(--second-text);
+    font-size: 19px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    height: 110px;
+    width: 550px;
+}
+.content5__client {
+    height: 50px;
+    width: 190px;
+}
+.content5__client-content {
+    float: right;
+    height: 48px;
+    width: 127px;
+}
+.content5__client-title {
+    color: var(--first-text);
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+.content5__cleint-subtitle {
+    color: var(--second-text);
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+.content5__btn {
+    background-color: var(--primary);
+    border-radius: 85px;
+    color: var(--light-text);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    width: 255px;
+    height: 52px;
+}
+.content5__decoration-ball-light-blue {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+.content5__decoration-ball-dark-blue {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
