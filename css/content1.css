@@ -1,52 +1,52 @@
-.download {
-    margin-top: 20px;
+.content1 {
+    margin: 100px 0;
     position: relative;
     top: 700px;
     text-align: center;
     height: 100vh;
     width: 100%;
 }
-.download__content {
+.content1__content {
     margin: auto;
     width: 634px;
     height: 257px;
     margin-bottom: 20px;;
 }
-.download__header {
+.content1__header {
     letter-spacing: 0.2px;
     font-size: 36px;
     color: var(--secondary);
 }
-.download__title {
+.content1__title {
     margin-top: 20px;
     letter-spacing: 0.2px;
     font-size: 56px;
     color: var(--first-text);
 }
-.download__subtitle {
+.content1__subtitle {
     margin-top: 20px;
     letter-spacing: 0.2px;
     font-size: 24px;
     color: var(--second-text);
 }
-.download__options {
+.content1__options {
     width: 445px;
     height: 52px;
     margin: auto;
 }
-.download__btn {
+.content1__btn {
     font-size: 18px;
     font-weight: bold;
     border-radius: 85px;
     height: 52px;
 }
-.download__btn-download {
+.content1__btn-download {
     background-color: var(--primary);
     color: var(--light-text);
     border: none;
     width: 187px;
 }
-.download__see-walkthrough {
+.content1__see-walkthrough {
     float: right;
     background: none;
     color: var(--primary);
