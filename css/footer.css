@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 94px;
+    top: 800px;
+    height: 207px;
+    letter-spacing: 0.2px;
+}
+.footer__brand {
+    width: 266px;
+    height: 86px;
+}
+.footer__subtitle {
+    color: var(--second-text);
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+.footer__menu {
+    display: flex;
+    gap: 31px;
+    line-height: 70px;
+}
+.footer__social-networks {
+    display: flex;
+    gap: 30px;
+    width: 210px;
+    height: 50.35px;
+}
+.footer__icon {
+    font-size: 50.35px;
+    color: var(--tertiary);
+}
+.footer__linkedin {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    width: 45px;
+    height: 45px;
+}
